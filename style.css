@@ -1,0 +1,339 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* nav */
+
+.dropdown-item a{
+    text-decoration: none;
+    color: black;
+}   
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    background-color: #333;
+    color: #fff;
+}
+.nav-item ul li a:hover{
+    /* background-color: #333; */
+    color: #fff;
+}
+
+
+/* slider */
+.bg-light{
+    background-color: transparent !important;
+}
+.carousel-item img{
+    height:600px;
+    /* min-height: 300px; */
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-weight:600;
+}
+.carousel-caption i{
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    line-height: 1.9;
+    font-weight: 400;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: rgb(78, 77, 77);
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.carousel-caption a:hover{
+    background-color: #fff;
+    color: rgb(108, 106, 106);
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+}
+
+/* dreams */
+.dreams img{    
+    height: 400px;
+    width: 100%;
+    margin-top: 2%;
+    display: block;
+}
+.dreams{
+    height: auto;
+    position: relative;
+    background-color: #333;
+}
+.dreams-text{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+.dreams-text p{
+     font-weight: bold;
+}
+
+/* four com */
+.one h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.two h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.three h1{
+    font-family:initial;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.four h3{
+    font-family:inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.simple p{
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.simple h1{
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* sellers */
+.btn{
+    border-radius: 50px;
+
+}
+
+
+/* heirlooms */
+.proof{
+    padding: 5%;
+    text-align: left;
+    color: #fff;
+}
+.proof a{
+    color: white;
+}
+
+/*Magazine*/
+
+.Magazine{
+    position: relative;
+}
+
+.Magazines h3{
+    position: absolute;
+    transform: translate(50%-50%);
+    top: 40%;
+    left: 10%;
+    text-align: center;
+     color: black;
+     font-size: 25px;
+     font-weight: bold;
+}
+.Magazines p{
+    position: absolute;
+    transform: translate(50%-50%);
+    top: 53%;
+    left: 10%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.Magazines a{
+    position: absolute;
+    transform: translate(50%-50%);
+    top: 80%;
+    left: 15%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.read{
+    position: relative;
+}
+.read-1 h3{
+    position: absolute;
+    transform: translate(50%-50%);
+    left:55%;
+}
+.read-1 p{
+    position: absolute;
+    transform: translate(50%-50%);
+    left:55%;
+    top: 35%;
+}
+.read-2 h3{
+    position: absolute;
+    transform: translate(50%-50%);
+    left:55%;
+}
+.read-2 p{
+    position: absolute;
+    transform: translate(50%-50%);
+    left:55%;
+    top: 58%;
+}
+.read-3 h3{
+    position: absolute;
+    transform: translate(50%-50%);
+    left:55%;
+}
+.read-3 p{
+    position: absolute;
+    transform: translate(50%-50%);
+    left:55%;
+    top: 92%;
+}
+
+
+/* footer */
+.fot{
+    font-size: 32px;
+    position: relative;
+    padding: 10px 5px;
+    border-bottom: 3px solid white;
+    display: inline-block;
+}
+.h1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+.icon i{
+    font-size: 20px;
+}
+
+/* signup */
+.sign{
+    padding: 8%;
+}
+.sign h1{
+    font-size: 52px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+form input{
+    text-align: left;
+    align-items: center;
+    margin-top: 5%;
+    border:1px solid lightgray;
+}
+.sign button{
+    margin-top: 5%;
+    background-color: #3d3538;
+    border: 1px solid rgb(61, 53, 56);
+    color: white;
+    font-weight: 600;
+}
+.sign button:hover{
+    background-color: white;
+    color: #3d3538;
+    border: 1px solid white;
+}
+.sign button a{
+    margin-top: 5%;
+    background-color: #3d3538;
+    border: 1px solid rgb(61, 53, 56);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.sign button a:hover{
+    background-color: white;
+    color: #3d3538;
+    border: 1px solid white;
+}
+.s1{
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    margin-top: 30%;
+    position: absolute;
+    transform: translate(50%,-50%);
+    left: 15%;
+}
+.s1:hover{
+    color: black;
+}
+form{
+    position: relative;
+}
+
+.s2{
+    position: absolute;
+    transform: translate(50%,-50%);
+    left: 4%;
+    top: 160%;
+}
+
+
+/* dis */
+.d1{
+    margin-top: 5%;
+    background-color: #3d3538;
+    border: 1px solid rgb(61, 53, 56);
+    color: white;
+    font-weight: 600;
+}
+.d1:hover{
+    background-color: white;
+    color: #3d3538;
+    border: 1px solid white;
+}
+
+/* cart */
+.cart{
+    border-style:  double;
+}
+.check{
+    margin-top: 5%;
+    background-color: #3d3538;
+    border: 1px solid rgb(61, 53, 56);
+    color: white;
+    font-weight: 600;
+}
+.check:hover{
+    background-color: white;
+    color: #3d3538;
+    border: 1px solid #3d3538;
+}
+.a1{
+    margin-top: 5%;
+    background-color: #3d3538;
+    border: 1px solid rgb(61, 53, 56);
+    color: white;
+    font-weight: 600;
+}
